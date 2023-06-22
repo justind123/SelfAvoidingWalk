@@ -17,8 +17,8 @@ function setup() {
     createCanvas(400, 400);
     frameRate();
 
-    rows = 4;
-    cols = 4;
+    rows = 5;
+    cols = 5;
     spacing = floor(width / rows);
     grid = makeGrid(rows, cols);
     grid = populateGrid(grid);
